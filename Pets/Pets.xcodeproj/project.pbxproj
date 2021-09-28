@@ -16,6 +16,7 @@
 		0A18BA5F2703757700B05FB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A18BA5D2703757700B05FB6 /* LaunchScreen.storyboard */; };
 		0A18BA6A2703757700B05FB6 /* PetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A18BA692703757700B05FB6 /* PetsTests.swift */; };
 		0A18BA752703757700B05FB6 /* PetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A18BA742703757700B05FB6 /* PetsUITests.swift */; };
+		0A18BA8627038F3C00B05FB6 /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A18BA8527038F3C00B05FB6 /* WelcomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0A18BA702703757700B05FB6 /* PetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A18BA742703757700B05FB6 /* PetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsUITests.swift; sourceTree = "<group>"; };
 		0A18BA762703757700B05FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A18BA8527038F3C00B05FB6 /* WelcomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				0A18BA4E2703757500B05FB6 /* Pets */,
+				0A18BA8227038A7300B05FB6 /* Sources */,
 				0A18BA682703757700B05FB6 /* PetsTests */,
 				0A18BA732703757700B05FB6 /* PetsUITests */,
 				0A18BA4D2703757500B05FB6 /* Products */,
@@ -101,12 +104,8 @@
 		0A18BA4E2703757500B05FB6 /* Pets */ = {
 			isa = PBXGroup;
 			children = (
-				0A18BA4F2703757600B05FB6 /* AppDelegate.swift */,
-				0A18BA512703757600B05FB6 /* SceneDelegate.swift */,
-				0A18BA532703757600B05FB6 /* ViewController.swift */,
-				0A18BA552703757600B05FB6 /* Main.storyboard */,
-				0A18BA5B2703757700B05FB6 /* Assets.xcassets */,
-				0A18BA5D2703757700B05FB6 /* LaunchScreen.storyboard */,
+				0A18BA8427038B9B00B05FB6 /* Controllers */,
+				0A18BA8327038A8800B05FB6 /* View */,
 				0A18BA602703757700B05FB6 /* Info.plist */,
 				0A18BA582703757600B05FB6 /* Pets.xcdatamodeld */,
 			);
@@ -129,6 +128,34 @@
 				0A18BA762703757700B05FB6 /* Info.plist */,
 			);
 			path = PetsUITests;
+			sourceTree = "<group>";
+		};
+		0A18BA8227038A7300B05FB6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0A18BA4F2703757600B05FB6 /* AppDelegate.swift */,
+				0A18BA5B2703757700B05FB6 /* Assets.xcassets */,
+				0A18BA512703757600B05FB6 /* SceneDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0A18BA8327038A8800B05FB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A18BA5D2703757700B05FB6 /* LaunchScreen.storyboard */,
+				0A18BA552703757600B05FB6 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A18BA8427038B9B00B05FB6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A18BA532703757600B05FB6 /* ViewController.swift */,
+				0A18BA8527038F3C00B05FB6 /* WelcomViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +292,7 @@
 				0A18BA5A2703757600B05FB6 /* Pets.xcdatamodeld in Sources */,
 				0A18BA502703757600B05FB6 /* AppDelegate.swift in Sources */,
 				0A18BA522703757600B05FB6 /* SceneDelegate.swift in Sources */,
+				0A18BA8627038F3C00B05FB6 /* WelcomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
