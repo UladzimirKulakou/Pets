@@ -23,6 +23,7 @@
 		0A79BF532704F29700CD96E1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0A79BF522704F29700CD96E1 /* FirebaseAuth */; };
 		0A79BF552704F29700CD96E1 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 0A79BF542704F29700CD96E1 /* FirebaseDatabase */; };
 		0A79BF572704F50200CD96E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A79BF562704F50200CD96E1 /* GoogleService-Info.plist */; };
+		0A84B99727088766007A238F /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84B99627088766007A238F /* ChoiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		0A18BA762703757700B05FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A18BA8527038F3C00B05FB6 /* WelcomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
 		0A79BF562704F50200CD96E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0A84B99627088766007A238F /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 			children = (
 				0A18BA532703757600B05FB6 /* ViewController.swift */,
 				0A18BA8527038F3C00B05FB6 /* WelcomViewController.swift */,
+				0A84B99627088766007A238F /* ChoiceViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				0A18BA542703757600B05FB6 /* ViewController.swift in Sources */,
 				0A18BA5A2703757600B05FB6 /* Pets.xcdatamodeld in Sources */,
 				0A18BA502703757600B05FB6 /* AppDelegate.swift in Sources */,
+				0A84B99727088766007A238F /* ChoiceViewController.swift in Sources */,
 				0A18BA522703757600B05FB6 /* SceneDelegate.swift in Sources */,
 				0A18BA8627038F3C00B05FB6 /* WelcomViewController.swift in Sources */,
 			);

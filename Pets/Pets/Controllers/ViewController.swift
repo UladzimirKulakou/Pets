@@ -9,8 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var welcomImage: UIImageView!
+    @IBOutlet weak var singInButton: UIButton!
+    @IBOutlet weak var singUpButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        welcomImage.image = UIImage(named: "Image_4")
+        singInButton.layer.frame = CGRect(x: 0, y: 0, width: 343, height: 43)
+        singInButton.layer.backgroundColor = UIColor(red: 0.216, green: 0.725, blue: 0.773, alpha: 1).cgColor
+        singInButton.layer.cornerRadius = 20
+        singInButton.setTitleColor(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0), for: .normal)
+        
         let button = UIButton(type: .roundedRect)
               button.frame = CGRect(x: 20, y: 50, width: 100, height: 30)
               button.setTitle("Test Crash", for: [])
