@@ -8,6 +8,7 @@
 import UIKit
 import CoreData
 import Firebase
+import YandexMapsMobile
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
-        
+        YMKMapKit.setApiKey("65ca4464-12d1-4d85-915c-d17e52da11b4")
         // Override point for customization after application launch.
         return true
     }
