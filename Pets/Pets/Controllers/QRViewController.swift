@@ -24,7 +24,9 @@ class QRViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate
     }
     
     func setupVideo() {
-       
+#if targetEnvironment(simulator)
+return
+#endif
         // 2. Настраиваем устройство
         let captureDevice = AVCaptureDevice.default(for: AVMediaType.video)
         // 3. Настроим input

@@ -16,35 +16,92 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcom to the Pets!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gww-mp-2ry">
-                                <rect key="frame" x="10" y="522" width="394" height="32.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIq-ne-XAK">
-                                <rect key="frame" x="10" y="584.5" width="394" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Login"/>
-                                <connections>
-                                    <segue destination="ngM-HJ-Kzs" kind="show" identifier="" id="Nmt-Mz-HHK"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ULg-c9-521">
-                                <rect key="frame" x="20" y="88" width="374" height="181"/>
+                            <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="pFX-sD-kPy">
+                                <rect key="frame" x="0.0" y="98" width="414" height="705"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcom to the Pets!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gww-mp-2ry">
+                                        <rect key="frame" x="91.5" y="0.0" width="231.5" height="32.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="40Q-qr-oC3">
+                                        <rect key="frame" x="10" y="114" width="394" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D83-N9-DOM">
+                                        <rect key="frame" x="172.5" y="230" width="69" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Search"/>
+                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="7V0-fs-zpa">
+                                        <rect key="frame" x="20" y="300" width="374" height="405"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleAspectFit" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vq9-Oy-c75">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="183"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ULg-c9-521">
+                                                        <rect key="frame" x="0.0" y="0.0" width="183" height="183"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="ULg-c9-521" secondAttribute="height" multiplier="1:1" id="ZeF-ee-zcF"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CS6-Bi-OFT">
+                                                        <rect key="frame" x="191" y="0.0" width="183" height="183"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="CS6-Bi-OFT" secondAttribute="height" multiplier="1:1" id="QgJ-P5-uvH"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="CS6-Bi-OFT" firstAttribute="width" secondItem="CS6-Bi-OFT" secondAttribute="height" multiplier="1:1" id="ejD-OG-ISk"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="LxG-mW-TBH">
+                                                <rect key="frame" x="0.0" y="222" width="374" height="183"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GfY-rf-2Ia">
+                                                        <rect key="frame" x="0.0" y="0.0" width="183" height="183"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="GfY-rf-2Ia" secondAttribute="height" multiplier="1:1" id="V9o-WK-Zfq"/>
+                                                            <constraint firstAttribute="width" secondItem="GfY-rf-2Ia" secondAttribute="height" multiplier="1:1" id="hW5-nQ-pZb"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="s11-d4-rby">
+                                                        <rect key="frame" x="191" y="0.0" width="183" height="183"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="s11-d4-rby" secondAttribute="height" multiplier="1:1" id="b3x-yT-M9H"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="s11-d4-rby" firstAttribute="width" secondItem="s11-d4-rby" secondAttribute="height" multiplier="1:1" id="EnW-Cu-FTd"/>
+                                                    <constraint firstItem="s11-d4-rby" firstAttribute="width" secondItem="s11-d4-rby" secondAttribute="height" multiplier="1:1" id="L2g-rc-DBQ"/>
+                                                    <constraint firstItem="GfY-rf-2Ia" firstAttribute="width" secondItem="GfY-rf-2Ia" secondAttribute="height" multiplier="1:1" id="tMQ-1O-ptf"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="ULg-c9-521" secondAttribute="height" multiplier="1:1" id="ZeF-ee-zcF"/>
+                                    <constraint firstItem="40Q-qr-oC3" firstAttribute="leading" secondItem="pFX-sD-kPy" secondAttribute="leading" constant="10" id="skl-0P-ZwQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="40Q-qr-oC3" secondAttribute="trailing" constant="10" id="uDq-Ar-Rft"/>
                                 </constraints>
-                            </imageView>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pFX-sD-kPy" secondAttribute="bottom" constant="10" id="5jH-b7-k9i"/>
+                            <constraint firstItem="pFX-sD-kPy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="8yr-12-7oF"/>
+                            <constraint firstItem="pFX-sD-kPy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VkV-XV-j8H"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pFX-sD-kPy" secondAttribute="trailing" id="glM-wL-rxF"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="5z0-kg-SZk"/>
                     <connections>
-                        <outlet property="singInButton" destination="FIq-ne-XAK" id="5fy-zN-YMt"/>
+                        <outlet property="profileImageView" destination="GfY-rf-2Ia" id="aCj-jw-Gsj"/>
                         <outlet property="welcomImage" destination="ULg-c9-521" id="9ds-OL-OkV"/>
                     </connections>
                 </viewController>
@@ -55,13 +112,13 @@
         <!--Login View Controller-->
         <scene sceneID="ETH-GR-eqG">
             <objects>
-                <viewController id="ngM-HJ-Kzs" customClass="LoginViewController" customModule="Pets" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loginVC" id="ngM-HJ-Kzs" customClass="LoginViewController" customModule="Pets" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t3h-QA-4IP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="ROC-LL-c0S">
-                                <rect key="frame" x="10" y="108" width="394" height="310"/>
+                                <rect key="frame" x="10" y="64" width="394" height="310"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User doesn't exist" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fx5-vb-Ti8">
                                         <rect key="frame" x="0.0" y="0.0" width="394" height="34"/>

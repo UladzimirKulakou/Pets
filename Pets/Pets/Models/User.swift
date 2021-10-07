@@ -14,6 +14,7 @@ struct User {
     init(user: Firebase.User) {
         self.uid = user.uid
         self.email = user.email ?? ""
+        self.name = user.displayName ?? ""
     }
 
     // MARK: Internal
@@ -21,4 +22,5 @@ struct User {
     // идентификатор пользователя
     let uid: String
     let email: String
+    let name: String
 }

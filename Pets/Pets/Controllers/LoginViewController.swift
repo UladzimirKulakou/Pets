@@ -31,8 +31,8 @@ class LoginViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         // чистим поля
-        emailTF.text = ""
-        passwordTF.text = ""
+//        emailTF.text = ""
+//        passwordTF.text = ""
     }
 
     @IBAction func loginTapped(_ sender: UIButton) {
@@ -69,9 +69,17 @@ class LoginViewController: UIViewController {
             if let error = error {
                 self?.displayWarningLabel(withText: "Registration was incorrect\n\(error.localizedDescription)")
             } else {
-                guard let user = user else { return }
-                let userRef = self?.ref.child(user.user.uid)
-                userRef?.setValue(["email": user.user.email])
+//                guard let user = user else { return }
+//                let userRef = self?.ref.child(user.user.uid)
+//                userRef?.setValue(["email": user.user.email])
+                guard let user = Auth.auth().currentUser else { return }
+                               let changeRequest = user.createProfileChangeRequest()
+                changeRequest.displayName = user.email
+                changeRequest.commitChanges { (error) in
+                                   if let error = error {
+//                                       self.showAlert(message: error.localizedDescription, title: "Authorization")
+                                   }
+                }
             }
         }
     }
