@@ -14,7 +14,8 @@ class TestViewController: UIViewController {
     var textForLabel: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-        ParsingServices.getMarkets()
+       ParsingServices.getMarkets()
+        
         // Do any additional setup after loading the view.
     }
     
@@ -29,6 +30,7 @@ class TestViewController: UIViewController {
     }
     */
     @IBAction func getMarketInfo(_ sender: Any) {
+//        ParsingServices.market = ParsingServices.loadJson()!
         var n = 0
         text = ParsingServices.market
         for market in text {

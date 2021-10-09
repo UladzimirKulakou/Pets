@@ -12,8 +12,8 @@ struct Market: Decodable {
     let address: String
     let phone: String
     let time: String
-    let latitude: String
-    let longitude: String
+    let latitude: Double
+    let longitude: Double
     let marketName: String
     let city: String
     let pharms: [Pharm]

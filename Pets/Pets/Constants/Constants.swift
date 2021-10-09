@@ -14,5 +14,5 @@ struct Constants {
 }
 
 class APIConstants {
-    static let marketPath = "http://localhost:3000/markets"
+    static let marketPath = "https://jsonkeeper.com/b/Q2BI"
 }

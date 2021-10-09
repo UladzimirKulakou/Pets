@@ -22,6 +22,9 @@ class ParsingServices {
                 } catch let error {
                     print(error)
                 }
+                    DispatchQueue.main.async {
+                    }
+        
             }
             task.resume()
            }
