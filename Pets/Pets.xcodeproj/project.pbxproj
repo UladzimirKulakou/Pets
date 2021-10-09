@@ -25,6 +25,9 @@
 		0A79BF552704F29700CD96E1 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 0A79BF542704F29700CD96E1 /* FirebaseDatabase */; };
 		0A79BF572704F50200CD96E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A79BF562704F50200CD96E1 /* GoogleService-Info.plist */; };
 		0A84B999270893EA007A238F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84B998270893EA007A238F /* LoginViewController.swift */; };
+		0A86DBA82710C63100208195 /* MarketAndPharms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A86DBA72710C63100208195 /* MarketAndPharms.swift */; };
+		0A86DBAD2710C79300208195 /* ParsingServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A86DBAC2710C79300208195 /* ParsingServices.swift */; };
+		0A86DBB02710CA8700208195 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A86DBAF2710CA8700208195 /* TestViewController.swift */; };
 		0AEF2A3D270CFB9B00505EE6 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEF2A3C270CFB9B00505EE6 /* MapsViewController.swift */; };
 		0AEFD69A2709F15500095411 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEFD6992709F15500095411 /* Constants.swift */; };
 		0AEFD69D270A073800095411 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEFD69C270A073800095411 /* User.swift */; };
@@ -72,6 +75,9 @@
 		0A651787270CD768004EDAC1 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
 		0A79BF562704F50200CD96E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0A84B998270893EA007A238F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0A86DBA72710C63100208195 /* MarketAndPharms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketAndPharms.swift; sourceTree = "<group>"; };
+		0A86DBAC2710C79300208195 /* ParsingServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingServices.swift; sourceTree = "<group>"; };
+		0A86DBAF2710CA8700208195 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		0AEF2A3C270CFB9B00505EE6 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		0AEFD6992709F15500095411 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0AEFD69C270A073800095411 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -147,6 +153,7 @@
 		0A18BA4E2703757500B05FB6 /* Pets */ = {
 			isa = PBXGroup;
 			children = (
+				0A86DBA92710C76300208195 /* Services */,
 				0AEFD69B270A06A800095411 /* Models */,
 				0AEFD6982709F0D900095411 /* Constants */,
 				0A18BA8427038B9B00B05FB6 /* Controllers */,
@@ -204,8 +211,17 @@
 				0AEFD6A0270A0D7A00095411 /* TasksViewController.swift */,
 				0A651787270CD768004EDAC1 /* QRViewController.swift */,
 				0AEF2A3C270CFB9B00505EE6 /* MapsViewController.swift */,
+				0A86DBAF2710CA8700208195 /* TestViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0A86DBA92710C76300208195 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0A86DBAC2710C79300208195 /* ParsingServices.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		0AEFD6982709F0D900095411 /* Constants */ = {
@@ -221,6 +237,7 @@
 			children = (
 				0AEFD69C270A073800095411 /* User.swift */,
 				0AEFD69E270A074700095411 /* Task.swift */,
+				0A86DBA72710C63100208195 /* MarketAndPharms.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -520,14 +537,17 @@
 				0A84B999270893EA007A238F /* LoginViewController.swift in Sources */,
 				0A18BA542703757600B05FB6 /* ViewController.swift in Sources */,
 				0A18BA5A2703757600B05FB6 /* Pets.xcdatamodeld in Sources */,
+				0A86DBA82710C63100208195 /* MarketAndPharms.swift in Sources */,
 				0AEF2A3D270CFB9B00505EE6 /* MapsViewController.swift in Sources */,
 				0AEFD69F270A074700095411 /* Task.swift in Sources */,
 				0AEFD6A1270A0D7A00095411 /* TasksViewController.swift in Sources */,
 				0A651788270CD768004EDAC1 /* QRViewController.swift in Sources */,
 				0A18BA502703757600B05FB6 /* AppDelegate.swift in Sources */,
 				0A18BA522703757600B05FB6 /* SceneDelegate.swift in Sources */,
+				0A86DBB02710CA8700208195 /* TestViewController.swift in Sources */,
 				0A18BA8627038F3C00B05FB6 /* WelcomViewController.swift in Sources */,
 				0AEFD69D270A073800095411 /* User.swift in Sources */,
+				0A86DBAD2710C79300208195 /* ParsingServices.swift in Sources */,
 				0AEFD69A2709F15500095411 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -716,7 +736,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = by.nameSite.Pets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -736,7 +756,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = by.nameSite.Pets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

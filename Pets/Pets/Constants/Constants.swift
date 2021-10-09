@@ -12,3 +12,7 @@ struct Constants {
         static let tasks = "tasksSegue"
     }
 }
+
+class APIConstants {
+    static let marketPath = "http://localhost:3000/markets"
+}
