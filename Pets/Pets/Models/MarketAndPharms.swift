@@ -16,12 +16,14 @@ struct Market: Decodable {
     let longitude: Double
     let marketName: String
     let city: String
-    let pharms: [Pharm]
 }
 struct Pharm: Decodable {
     let pharmsName: String
     let pharmsShortName: String
     let pharmsID: Int
+}
+struct PharmPrice: Decodable {
     let marketID: Int
+    let pharmsID: Int
     let marketPrice: Double
 }

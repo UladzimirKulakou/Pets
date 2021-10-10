@@ -10,16 +10,33 @@ import UIKit
 class TestViewController: UIViewController {
 
     @IBOutlet weak var marketInfo: UILabel!
-    var text: [Market] = []
+    var text: [Pharm] = []
     var textForLabel: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-       ParsingServices.getMarkets()
+        ParsingServices.getPharms()
         
         // Do any additional setup after loading the view.
     }
     
-
+    private func getPharmName() {
+        let url = "\(APIConstants.pharmsPath)"
+        guard let url = URL(string: url) else {return}
+        let task = URLSession.shared.dataTask(with: url) { (data, _, _) in
+            guard let data = data else { return }
+            print(data)
+            do {
+                ParsingServices.pharms = try JSONDecoder().decode([Pharm].self, from: data)
+            } catch let error {
+                print(error)
+            }
+                DispatchQueue.main.async {
+                }
+    
+        }
+        task.resume()
+        
+    }
     /*
     // MARK: - Navigation
 
@@ -30,18 +47,15 @@ class TestViewController: UIViewController {
     }
     */
     @IBAction func getMarketInfo(_ sender: Any) {
-//        ParsingServices.market = ParsingServices.loadJson()!
+        
         var n = 0
-        text = ParsingServices.market
-        for market in text {
-            for pharms in market.pharms {
-                if pharms.pharmsShortName == "Бравекто" {
-                    n += 1
-                    textForLabel += "\(n). " + market.marketName + " цена: " + "\(pharms.marketPrice) "
-                }
+        text = ParsingServices.pharms
+        for pharm in text {
+            n+=1
+            textForLabel += "\(n)" + " \(pharm.pharmsShortName) "
             }
-        }
         marketInfo.text = textForLabel
+        }
+       
     }
-    
-}
+

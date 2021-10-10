@@ -29,7 +29,7 @@ class WelcomViewController: UIViewController {
         // set up scrollview
         scrollView.frame = holderView.bounds
         holderView.addSubview(scrollView)
-        let titles = ["Покупайте лекарства онлайн", "Все в \n одном месте", "Быстрая доставка \n от 15 минут"]
+        let titles = ["Buy medicines online", "All in one place", "Быстрая доставка \n от 15 минут"]
         for x in 0..<2 {
             let pageView = UIView(frame: CGRect(x: CGFloat(x) * holderView.frame.size.width, y: 0, width: holderView.frame.size.width, height: holderView.frame.size.height))
             scrollView.addSubview(pageView)
@@ -55,9 +55,9 @@ class WelcomViewController: UIViewController {
             imageView.backgroundColor = UIColor(named: "Color1")
         
             button.layer.cornerRadius = 20
-            button.setTitle("Далее", for: .normal)
+            button.setTitle("Next", for: .normal)
             if x == 1 {
-                button.setTitle("Начнем", for: .normal)
+                button.setTitle("Go!", for: .normal)
 
             }
             button.addTarget(self, action: #selector(didTapButton(_:)), for: .touchUpInside)
