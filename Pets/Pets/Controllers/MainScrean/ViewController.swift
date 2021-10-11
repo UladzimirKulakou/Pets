@@ -107,7 +107,7 @@ class ViewController: UIViewController {
      //   ParsingServices.getAllPharms()
      //   ParsingServices.getAllPharms()
         guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
-    
+        vc.textFromSmallButton = 30
             navigationController?.pushViewController(vc, animated: true)
         }
     
@@ -129,13 +129,186 @@ class ViewController: UIViewController {
     }
 
     @IBAction func smallSearchButtonTapped(_ sender: Any) {
+        if searchTextFieldOutlet.text == "Бравекто" {
         guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
-        vc.textFromSmallButton = 1
+        vc.textFromSmallButton = 0
             navigationController?.pushViewController(vc, animated: true)
+        } else { if searchTextFieldOutlet.text == "Азинокс" {
+            guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+            vc.textFromSmallButton = 1
+                navigationController?.pushViewController(vc, animated: true)
+        } else {
+             if searchTextFieldOutlet.text == "Апоквел" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 2
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Вазосан" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 3
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Гельмимакс" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 4
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Дехинел" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 5
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Диаркан" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 6
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Баюн" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 7
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Марфлоксин" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 8
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Мексидол" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 9
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Милпразон" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 10
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Онсиор" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 11
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Римадил" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 12
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Фитокальцевит" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 13
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Превикокс" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 14
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Празител" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 15
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Симпарика" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 16
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Сульф" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 17
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Фетбал" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 18
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Ципровет" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 19
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Энроксил" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 20
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Ципровет" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 21
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Анандин" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 22
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Барс" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 23
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Ирис" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 24
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Отоферонол" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 25
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Фитэкс" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 26
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Адвантейдж" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 27
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {if searchTextFieldOutlet.text == "Дана" {
+                guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+                vc.textFromSmallButton = 28
+                    navigationController?.pushViewController(vc, animated: true)
+            } else {  guard let vc = storyboard?.instantiateViewController(identifier: "errorVC") as? ErrorViewController else { return }
+                        navigationController?.pushViewController(vc, animated: true)
+                    
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+                
+            }
+            
+        }
+    }
     }
     
-    
-    
+//
     
 }
 

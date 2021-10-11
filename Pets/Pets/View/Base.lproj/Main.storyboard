@@ -292,7 +292,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EQn-RJ-MtO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2749" y="-597"/>
+            <point key="canvasLocation" x="3658" y="-600"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="s9p-um-eKX">
@@ -380,7 +380,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UBH-Gd-9pL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7268" y="-598.65067466266873"/>
+            <point key="canvasLocation" x="6985" y="-598"/>
         </scene>
         <!--log in-->
         <scene sceneID="GPg-Sp-gQk">
@@ -452,49 +452,6 @@
             </objects>
             <point key="canvasLocation" x="4570" y="832"/>
         </scene>
-        <!--Test View Controller-->
-        <scene sceneID="j1Y-W0-j1U">
-            <objects>
-                <viewController id="QSi-6t-K0Q" customClass="TestViewController" customModule="Pets" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="5AK-TQ-lA6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDk-TT-Imj">
-                                <rect key="frame" x="25" y="86" width="325" height="81"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.65650200839999995" green="0.88757473229999995" blue="0.90700256820000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="highlightedColor" red="0.65650200839999995" green="0.88757473229999995" blue="0.90700256820000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zxt-6H-WfD">
-                                <rect key="frame" x="154" y="299.5" width="67" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <action selector="getMarketInfo:" destination="QSi-6t-K0Q" eventType="touchUpInside" id="FRC-7d-Bqn"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="t5n-E9-Ss1"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="t5n-E9-Ss1" firstAttribute="trailing" secondItem="tDk-TT-Imj" secondAttribute="trailing" constant="25" id="3Mu-jO-mjp"/>
-                            <constraint firstItem="tDk-TT-Imj" firstAttribute="centerX" secondItem="t5n-E9-Ss1" secondAttribute="centerX" id="67T-pQ-i8F"/>
-                            <constraint firstItem="Zxt-6H-WfD" firstAttribute="centerX" secondItem="t5n-E9-Ss1" secondAttribute="centerX" id="BY8-cC-FFJ"/>
-                            <constraint firstItem="Zxt-6H-WfD" firstAttribute="centerY" secondItem="t5n-E9-Ss1" secondAttribute="centerY" constant="-18.5" id="Vdz-1P-q1q"/>
-                            <constraint firstItem="t5n-E9-Ss1" firstAttribute="bottom" secondItem="tDk-TT-Imj" secondAttribute="bottom" constant="500" id="n3M-b6-AHK"/>
-                            <constraint firstItem="tDk-TT-Imj" firstAttribute="top" secondItem="t5n-E9-Ss1" secondAttribute="top" constant="86" id="qex-Hd-sya"/>
-                            <constraint firstItem="tDk-TT-Imj" firstAttribute="leading" secondItem="t5n-E9-Ss1" secondAttribute="leading" constant="25" id="rNq-gR-uPa"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="marketInfo" destination="tDk-TT-Imj" id="P9c-fg-thI"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3B1-Qf-62z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5489.8550724637689" y="828.34821428571422"/>
-        </scene>
         <!--Error View Controller-->
         <scene sceneID="Nco-t5-1SF">
             <objects>
@@ -511,7 +468,7 @@
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZw-od-Lgi">
                                         <rect key="frame" x="0.0" y="483" width="335" height="47.5"/>
-                                        <string key="text">No internet Connection 
+                                        <string key="text">No pharmacy
 </string>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                         <color key="textColor" red="0.21063122149999999" green="0.31370383499999999" blue="0.41105118390000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -555,7 +512,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="368-vJ-6FT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6216.8000000000002" y="827.13643178410803"/>
+            <point key="canvasLocation" x="5489" y="832"/>
         </scene>
         <!--Person View Controller-->
         <scene sceneID="Jbz-Ai-yLW">
@@ -574,13 +531,13 @@
                                             <constraint firstAttribute="width" secondItem="goG-tj-hiB" secondAttribute="height" multiplier="1:1" id="9hr-bb-C4R"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kGV-Wh-iiK">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kGV-Wh-iiK">
                                         <rect key="frame" x="0.0" y="373" width="339" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mi-NI-wok">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mi-NI-wok">
                                         <rect key="frame" x="0.0" y="427.5" width="339" height="48"/>
                                         <string key="text">No internet Connection 
 TRY AGAIN</string>
@@ -588,12 +545,12 @@ TRY AGAIN</string>
                                         <color key="textColor" red="0.21063122149999999" green="0.31370383499999999" blue="0.41105118390000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59f-pz-LlJ">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59f-pz-LlJ">
                                         <rect key="frame" x="0.0" y="509.5" width="339" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y5S-df-zlG">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y5S-df-zlG">
                                         <rect key="frame" x="0.0" y="574.5" width="339" height="50"/>
                                         <color key="backgroundColor" red="0.21063122149999999" green="0.31370383499999999" blue="0.41105118390000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
@@ -732,9 +689,8 @@ TRY AGAIN</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U6b-Kn-RxC">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U6b-Kn-RxC">
+                                <rect key="frame" x="0.0" y="44" width="375" height="574"/>
                             </mapView>
                             <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baB-ge-ybA">
                                 <rect key="frame" x="155" y="519" width="65" height="30"/>
@@ -755,8 +711,12 @@ TRY AGAIN</string>
                         <viewLayoutGuide key="safeArea" id="YMF-Pa-rKy"/>
                         <color key="backgroundColor" red="0.65650200839999995" green="0.88757473229999995" blue="0.90700256820000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="U6b-Kn-RxC" firstAttribute="bottom" secondItem="YMF-Pa-rKy" secondAttribute="bottom" id="Tmg-JB-4ms"/>
                             <constraint firstItem="YMF-Pa-rKy" firstAttribute="bottom" secondItem="baB-ge-ybA" secondAttribute="bottom" constant="69" id="Z2s-DE-uAB"/>
+                            <constraint firstItem="YMF-Pa-rKy" firstAttribute="trailing" secondItem="U6b-Kn-RxC" secondAttribute="trailing" id="a9K-MO-37f"/>
                             <constraint firstItem="baB-ge-ybA" firstAttribute="centerX" secondItem="YMF-Pa-rKy" secondAttribute="centerX" id="dFO-da-Zbq"/>
+                            <constraint firstItem="YMF-Pa-rKy" firstAttribute="top" secondItem="U6b-Kn-RxC" secondAttribute="top" id="uCN-Xe-qa3"/>
+                            <constraint firstItem="U6b-Kn-RxC" firstAttribute="leading" secondItem="YMF-Pa-rKy" secondAttribute="leading" id="wCx-L8-E4A"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="nPg-nf-CIM"/>
@@ -842,11 +802,11 @@ TRY AGAIN</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NX1-pT-LmK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7981.6000000000004" y="-599.55022488755628"/>
+            <point key="canvasLocation" x="7718" y="-599"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="nqo-wj-NCJ"/>
+        <segue reference="5aA-Ga-hoB"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="map" catalog="system" width="128" height="110"/>

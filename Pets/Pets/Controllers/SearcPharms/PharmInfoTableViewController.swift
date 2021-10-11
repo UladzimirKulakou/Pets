@@ -33,7 +33,7 @@ class PharmInfoTableViewController: UITableViewController {
 
     private func getAllPharmsPrices(index: Int) {
 
-        guard let url = URL(string: "http://192.168.0.121:3000/pharmPrice?pharmsID=\(index)") else { return }
+        guard let url = URL(string: "http://192.168.31.135:3000/pharmPrice?pharmsID=\(index)") else { return }
 
         let task = URLSession.shared.dataTask(with: url) { (data, _, _) in
             guard let data = data else { return }

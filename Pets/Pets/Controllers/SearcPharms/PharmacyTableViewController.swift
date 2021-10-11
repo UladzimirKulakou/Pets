@@ -18,7 +18,7 @@ class PharmacyTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        if textFromSmallButton == 0 {
+        if textFromSmallButton == 30 {
         getAllPharms()
         } else {
             getAllPharms(textFromSmallButton: textFromSmallButton)
