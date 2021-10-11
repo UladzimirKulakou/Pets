@@ -9,6 +9,8 @@ import UIKit
 import AVFoundation
 
 class QRViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
+    
+    var textFronQR: String = ""
 
 
     
@@ -54,15 +56,21 @@ return
     @IBAction func startVideoTapped(_ sender: Any) {
         startRunning()
     }
-    
+   
     func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
         guard metadataObjects.count > 0 else { return }
         if let object = metadataObjects.first as? AVMetadataMachineReadableCodeObject {
             if object.type == AVMetadataObject.ObjectType.qr {
                 let alert = UIAlertController(title: "QR-Code", message: object.stringValue, preferredStyle: .alert)
-                alert.addAction(UIAlertAction(title: "Перейти", style: .default, handler: {(action) in
-                    print(object.stringValue)}))
-                alert.addAction(UIAlertAction(title: "Копировать", style: .default, handler: {(action) in
+                alert.addAction(UIAlertAction(title: "Search", style: .default, handler: {(action) in
+                    guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "welcomVC1") as? ViewController else { return }
+                    vc.text = object.stringValue!
+                    self.navigationController?.pushViewController(vc, animated: true)
+                    
+                    
+                    
+                }))
+                alert.addAction(UIAlertAction(title: "Copy", style: .default, handler: {(action) in
                     UIPasteboard.general.string = object.stringValue
                     self.view.layer.sublayers?.removeLast()
                     self.session.stopRunning()

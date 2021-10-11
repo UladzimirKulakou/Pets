@@ -9,7 +9,9 @@ import UIKit
 import FirebaseAuth
 
 class ViewController: UIViewController {
+    var text: String = "Апоквел"
 
+    @IBOutlet weak var welcomLabel: UILabel!
     // @IBOutlet weak var welcomImage: UIImageView!
     // @IBOutlet weak var singInButton: UIButton!
     //    @IBOutlet weak var singUpButton: UIButton!
@@ -18,12 +20,20 @@ class ViewController: UIViewController {
     @IBOutlet weak var qrReaderImage: UIImageView!
     @IBOutlet weak var mapImage: UIImageView!
     
-
+    @IBOutlet weak var smallSearchButtonOutlet: UIButton!
+    @IBOutlet weak var searchTextFieldOutlet: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        ParsingServices.getMarkets()
+       // ParsingServices.getMarkets()
+        searchTextFieldOutlet.text = text
+        searchTextFieldOutlet.layer.cornerRadius = 10
+        searchTextFieldOutlet.layer.borderWidth = 1
+        searchTextFieldOutlet.layer.borderColor = CGColor(red: 0.18, green: 0.32, blue: 0.42, alpha: 1.00)
+        searchTextFieldOutlet.layer.cornerRadius = 10
+        smallSearchButtonOutlet.layer.cornerRadius = 10
+        welcomLabel.layer.cornerRadius = 10
 
-        
         //        welcomImage.image = UIImage(named: "Image_4")
         ////        singInButton.layer.frame = CGRect(x: 0, y: 0, width: 343, height: 43)
         //        singInButton.layer.backgroundColor = UIColor(red: 0.216, green: 0.725, blue: 0.773, alpha: 1).cgColor
@@ -39,22 +49,22 @@ class ViewController: UIViewController {
         
         
         personDataImage.image = UIImage(named: "FirstVCimage_4")
-        personDataImage.layer.borderWidth = 3
+        personDataImage.layer.borderWidth = 1
         personDataImage.layer.borderColor = CGColor(red: 0.18, green: 0.32, blue: 0.42, alpha: 1.00)
         personDataImage.layer.cornerRadius = 10
 
         searchDataImage.image = UIImage(named: "FirstVCimage_1")
-        searchDataImage.layer.borderWidth = 3
+        searchDataImage.layer.borderWidth = 1
         searchDataImage.layer.borderColor = CGColor(red: 0.18, green: 0.32, blue: 0.42, alpha: 1.00)
         searchDataImage.layer.cornerRadius = 10
 
         qrReaderImage.image = UIImage(named: "FirstVCimage_3")
-        qrReaderImage.layer.borderWidth = 3
+        qrReaderImage.layer.borderWidth = 1
         qrReaderImage.layer.borderColor = CGColor(red: 0.18, green: 0.32, blue: 0.42, alpha: 1.00)
         qrReaderImage.layer.cornerRadius = 10
 
         mapImage.image = UIImage(named: "FirstVCimage_2")
-        mapImage.layer.borderWidth = 3
+        mapImage.layer.borderWidth = 1
         mapImage.layer.borderColor = CGColor(red: 0.18, green: 0.32, blue: 0.42, alpha: 1.00)
         mapImage.layer.cornerRadius = 10
 
@@ -81,40 +91,27 @@ class ViewController: UIViewController {
         let _ = numbers[1]
     }
     @objc func logInButtonTapped() {
-        if Auth.auth().currentUser != nil {
-            return
-            // прописать переход на экран пользователя
-        } else {
+        
             guard let vc = storyboard?.instantiateViewController(identifier: "loginVC") as? LoginViewController else { return }
             navigationController?.pushViewController(vc, animated: true)
 
-        }
+        
     }
     @objc func mapButtonTapped() {
-        if Auth.auth().currentUser != nil {
-            return
-            // прописать переход на экран пользователя
-        } else {
-            guard let vc = storyboard?.instantiateViewController(identifier: "mapVC") as? MapsViewController else { return }
+     
+            guard let vc = storyboard?.instantiateViewController(identifier: "mapVC1") as? FirstMapViewController else { return }
             navigationController?.pushViewController(vc, animated: true)
-
-        }
+    
     }
     @objc func searchButtonTapped() {
-        if  ParsingServices.market.count == 0 {
-            guard let vc = storyboard?.instantiateViewController(identifier: "errorVC") as? ErrorViewController else { return }
+     //   ParsingServices.getAllPharms()
+     //   ParsingServices.getAllPharms()
+        guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+    
             navigationController?.pushViewController(vc, animated: true)
-
         }
-        if Auth.auth().currentUser != nil {
-            return
-            // прописать переход на экран пользователя
-        } else {
-            guard let vc = storyboard?.instantiateViewController(identifier: "errorVC") as? ErrorViewController else { return }
-            navigationController?.pushViewController(vc, animated: true)
-
-        }
-    }
+    
+    
     @objc func qrButtonTapped() {
             guard let vc = storyboard?.instantiateViewController(identifier: "qrVC") as? QRViewController else { return }
             navigationController?.pushViewController(vc, animated: true)
@@ -131,6 +128,15 @@ class ViewController: UIViewController {
         }
     }
 
+    @IBAction func smallSearchButtonTapped(_ sender: Any) {
+        guard let vc = storyboard?.instantiateViewController(identifier: "pharmaVC") as? PharmacyTableViewController else { return }
+        vc.textFromSmallButton = 1
+            navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    
+    
+    
 }
 
 class Core {
@@ -143,4 +149,12 @@ class Core {
         UserDefaults.standard.setValue(true, forKey: "isNewUser")
     }
 }
+
+extension ViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        searchTextFieldOutlet.resignFirstResponder()
+        return true
+    }
+}
+
 

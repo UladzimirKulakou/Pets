@@ -30,24 +30,26 @@ class ParsingServices {
             }
             task.resume()
            }
-    static func getPharms() {
+    static func getMarketsCoordinate (marketCityIndex: Int) {
 
-        guard let url = URL(string: APIConstants.pharmsPath) else { return }
+        guard let url = URL(string: "\(APIConstants.marketPath)?city=\(marketCityIndex)") else { return }
 
             let task = URLSession.shared.dataTask(with: url) { (data, _, _) in
                 guard let data = data else { return }
                 print(data)
                 do {
-                    ParsingServices.pharms = try JSONDecoder().decode([Pharm].self, from: data)
+                    ParsingServices.market = try JSONDecoder().decode([Market].self, from: data)
                 } catch let error {
                     print(error)
                 }
                     DispatchQueue.main.async {
+                        
                     }
         
             }
             task.resume()
            }
+   
     static func getPrices() {
 
         guard let url = URL(string: APIConstants.pharmsPrices) else { return }
@@ -66,5 +68,23 @@ class ParsingServices {
             }
             task.resume()
            }
+    static func getAllPharms() {
 
+        guard let url = URL(string: "\(APIConstants.pharmsPath)") else { return }
+
+        let task = URLSession.shared.dataTask(with: url) { (data, _, _) in
+            guard let data = data else { return }
+            print(data)
+            do {
+                ParsingServices.pharms = try JSONDecoder().decode([Pharm].self, from: data)
+            } catch let error {
+                print(error)
+            }
+            DispatchQueue.main.async {
+                 //  self.tableView.reloadData()
+            }
+
+        }
+        task.resume()
+    }
 }

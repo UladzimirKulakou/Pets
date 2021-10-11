@@ -24,6 +24,8 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>This app need to use your camera</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app Displays users location now</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>This app Displays users location now</string>
 	<key>UIApplicationSceneManifest</key>

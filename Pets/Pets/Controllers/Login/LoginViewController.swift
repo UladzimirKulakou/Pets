@@ -15,10 +15,28 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var emailTF: UITextField!
     @IBOutlet weak var passwordTF: UITextField!
     
+    @IBOutlet weak var loginOutlet: UIButton!
+    
+    @IBOutlet weak var registOutlet: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        loginOutlet.layer.cornerRadius = 10
+        loginOutlet.layer.borderWidth = 1
+        loginOutlet.layer.borderColor = CGColor(red: 0.18, green: 0.32, blue: 0.42, alpha: 1.00)
+        registOutlet.layer.cornerRadius = 10
+        registOutlet.layer.borderWidth = 1
+        registOutlet.layer.borderColor = CGColor(red: 0.18, green: 0.32, blue: 0.42, alpha: 1.00)
+        passwordTF.layer.cornerRadius = 10
+        passwordTF.layer.borderWidth = 1
+        passwordTF.layer.borderColor = CGColor(red: 0.18, green: 0.32, blue: 0.42, alpha: 1.00)
+        emailTF.layer.cornerRadius = 10
+        emailTF.layer.borderWidth = 1
+        emailTF.layer.borderColor = CGColor(red: 0.18, green: 0.32, blue: 0.42, alpha: 1.00)
+        
+        
+        
         ref = Database.database().reference(withPath: "users")
 
         // если у нас еще есть действующий user то сделаем переход

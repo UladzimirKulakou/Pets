@@ -8,7 +8,7 @@
          "latitude":53.952635,
          "longitude":27.633518,
          "marketName":"Ветеринарная клиника А-Вет",
-         "city":"Минск"
+         "city":0
       },
       {
          "marketID":1,
@@ -18,7 +18,7 @@
          "latitude":53.94350327,
          "longitude":27.608860,
          "marketName":"ВетПрофи",
-         "city":"Минск"
+         "city":0
       },
       {
          "marketID":2,
@@ -28,17 +28,16 @@
          "latitude":53.925869,
          "longitude":27.517348,
          "marketName":"Доктор Вет",
-         "city":"Минск"
+         "city":0
       },
-      {
-         "marketID":3,
+      {  "marketID":3,
          "address":" ул. Тимирязева, 74А ",
          "phone":" +375 17 221-33-47 ",
          "time":"9:00-20:00",
          "latitude":53.927185,
          "longitude":27.509850,
          "marketName":" Доктор Вет ",
-         "city":"Минск"
+         "city":0
       },
       {
          "marketID":4,
@@ -48,17 +47,16 @@
          "latitude":53.932838,
          "longitude":27.503372,
          "marketName":"Zoobazar",
-         "city":"Минск"
+         "city":0
       },
-      {
-         "marketID":5,
+      {   "marketID":5,
          "address":" ул. Владислава Голубка, 2 ",
          "phone":" +375 44 525-07-62",
          "time":"9:00-20:00",
          "latitude":53.926073,
          "longitude":27.444556,
          "marketName":" Zoobazar ",
-         "city":"Минск"
+         "city":0
       },
       {
          "marketID":6,
@@ -68,17 +66,17 @@
          "latitude":53.687835,
          "longitude":23.845347,
          "marketName":"Друзья",
-         "city":"Гродно"
+         "city":1
       },
       {
-         "marketID":7,
+          "marketID":5,
          "address":"ул. Ленина, 19",
          "phone":"+375 29 690-12-63",
          "time":"9:00-20:00",
          "latitude":53.681804,
          "longitude":23.840790,
          "marketName":"Золотой гусь",
-         "city":"Гродно"
+         "city":1
       },
       {
          "marketID":8,
@@ -88,7 +86,7 @@
          "latitude":53.667270,
          "longitude":23.789188,
          "marketName":"Zoobazar",
-         "city":"Гродно"
+         "city":1
       },
       {
          "marketID":9,
@@ -98,7 +96,7 @@
          "latitude":53.650851,
          "longitude":23.832430,
          "marketName":"Zoobazar",
-         "city":"Гродно"
+         "city":1
       },
       {
          "marketID":10,
@@ -108,7 +106,7 @@
          "latitude":53.654612,
          "longitude":23.849854,
          "marketName":"Zoobazar",
-         "city":"Гродно"
+         "city":1
       },
       {
          "marketID":11,
@@ -118,7 +116,7 @@
          "latitude":53.658098,
          "longitude":23.807723,
          "marketName":"Ветеринарная клиника",
-         "city":"Гродно"
+         "city":1
       },
       {
          "marketID":12,
@@ -128,7 +126,7 @@
          "latitude":53.678789,
          "longitude":23.895616,
          "marketName":"ПроБиоТех",
-         "city":"Гродно"
+         "city":1
       },
       {
          "marketID":13,
@@ -138,7 +136,7 @@
          "latitude":53.912206,
          "longitude":30.318455,
          "marketName":"Зоо Лавка",
-         "city":"Могилев"
+         "city":2
       },
       {
          "marketID":14,
@@ -148,7 +146,7 @@
          "latitude":53.912596,
          "longitude":30.341684,
          "marketName":"Какаду вет",
-         "city":"Могилев"
+         "city":2
       },
       {
          "marketID":15,
@@ -158,7 +156,7 @@
          "latitude":53.902999,
          "longitude":30.335044,
          "marketName":"МогРосВет",
-         "city":"Могилев"
+         "city":2
       },
       {
          "marketID":16,
@@ -168,17 +166,17 @@
          "latitude":53.904644,
          "longitude":30.339521,
          "marketName":"KakaDy+",
-         "city":"Могилев"
+         "city":2
       },
       {
-         "marketID":17,
+            "marketID":17,
          "address":"ул. Мовчанского, 6",
          "phone":"+375 22 247-85-89",
          "time":"9:00-20:00",
          "latitude":53.872444,
          "longitude":30.362598,
          "marketName":"Доктор Вет",
-         "city":"Могилев"
+         "city":2
       },
       {
          "marketID":18,
@@ -188,7 +186,7 @@
          "latitude":55.193235,
          "longitude":30.196168,
          "marketName":"Зоомаркет",
-         "city":"Витебск"
+         "city":3
       },
       {
          "marketID":19,
@@ -198,7 +196,7 @@
          "latitude":55.188404,
          "longitude":30.190325,
          "marketName":"Кот и пес",
-         "city":"Витебск"
+         "city":3
       },
       {
          "marketID":20,
@@ -208,7 +206,7 @@
          "latitude":55.193030,
          "longitude":30.216248,
          "marketName":"Вита-Вет",
-         "city":"Витебск"
+         "city":3
       },
       {
          "marketID":21,
@@ -218,3346 +216,3378 @@
          "latitude":55.169236,
          "longitude":30.237213,
          "marketName":"Котёнок Гав",
-         "city":"Витебск"
+         "city":3
       }
    ],
    "pharms":[
       {
          "pharmsName":"Бравекто Таблетки от блох и клещей",
          "pharmsShortName":"Бравекто",
-         "pharmsID":0
+         "pharmsID":0,
+         "minmaxPrice":"41...22.5"
+         
       },
       {
          "pharmsName":"Азинокс Плюс Таблетки от гельминтов для собак",
          "pharmsShortName":"Азинокс",
-         "pharmsID":1
+         "pharmsID":1,
+         "minmaxPrice":"0.90...1.63"
       },
       {
          "pharmsName":"Апоквел Таблетки при дерматитах у собак",
          "pharmsShortName":"Апоквел",
-         "pharmsID":2
+         "pharmsID":2,
+         "minmaxPrice":"89.01...97.5"
       },
       {
          "pharmsName":" Вазосан",
          "pharmsShortName":"Вазосан",
-         "pharmsID":3
+         "pharmsID":3,
+         "minmaxPrice":"29.34...39.53"
       },
       {
          "pharmsName":" Гельмимакс Таблетки от глистов для щенков и собак",
          "pharmsShortName":"Гельмимакс",
-         "pharmsID":4
+         "pharmsID":4,
+         "minmaxPrice":"11.43...17.46"
       },
       {
          "pharmsName":"Дехинел Плюс XL Таблетки от глистов для собак крупных пород ",
          "pharmsShortName":"Дехинел",
-         "pharmsID":5
+         "pharmsID":5,
+         "minmaxPrice":"8.19...12.78"
       },
       {
          "pharmsName":"Диаркан Сахарные кубики при диарее (цена за 1 кубик)",
          "pharmsShortName":"Диаркан",
-         "pharmsID":6
+         "pharmsID":6,
+         "minmaxPrice":"4.50...4.59"
       },
       {
          "pharmsName":"Кот Баюн таблетки Успокоительное средство",
          "pharmsShortName":"Баюн",
-         "pharmsID":7
+         "pharmsID":7,
+         "minmaxPrice":"4.95...6.39"
       },
       {
          "pharmsName":"Марфлоксин Антибактериальные таблетки",
          "pharmsShortName":"Марфлоксин",
-         "pharmsID":8
+         "pharmsID":8,
+         "minmaxPrice":"18.8...51.76"
       },
       {
          "pharmsName":" Мексидол-Вет Таблетки для орального применений ",
          "pharmsShortName":"Мексидол",
-         "pharmsID":9
+         "pharmsID":9,
+         "minmaxPrice":"14.58...18.57"
       },
       {
          "pharmsName":"Милпразон таблетки от глистов для собак (цена за 1 таблетку)",
          "pharmsShortName":"Милпразон",
-         "pharmsID":10
+         "pharmsID":10,
+         "minmaxPrice":"7...8"
       },
       {
          "pharmsName":" Онсиор 5 мг №28 для собак ",
          "pharmsShortName":"Онсиор",
-         "pharmsID":11
+         "pharmsID":11,
+         "minmaxPrice":"37.8...74.25"
       },
       {
          "pharmsName":"Римадил Р Противовоспалительные и анальгезирующие таблетки для собак",
          "pharmsShortName":"Римадил",
-         "pharmsID":12
+         "pharmsID":12,
+         "minmaxPrice":"29...45"
       },
       {
          "pharmsName":"Фитокальцевит для собак 500г",
          "pharmsShortName":"Фитокальцевит",
-         "pharmsID":13
+         "pharmsID":13,
+         "minmaxPrice":"11...12.5"
       },
       {
          "pharmsName":" Превикокс Противовоспалительные, болеутоляющие таблетки для собак (цена за 1 таблетку) ",
          "pharmsShortName":"Превикокс",
-         "pharmsID":14
+         "pharmsID":14,
+         "minmaxPrice":"4.38...8.58"
       },
       {
          "pharmsName":" Празител плюс Таблетки от гельминтов для собак, 2 таблетки ",
          "pharmsShortName":"Празител",
-         "pharmsID":15
+         "pharmsID":15,
+         "minmaxPrice":"18.54...28.26"
       },
       {
          "pharmsName":" Симпарика Таблетка от блох и клещей (цена за 1 таблетку) ",
          "pharmsShortName":"Симпарика",
-         "pharmsID":16
+         "pharmsID":16,
+         "minmaxPrice":"41...22.5"
       },
       {
          "pharmsName":" Сульф 120 таблетки Антибактериальный препарат для собак ",
          "pharmsShortName":"Сульф",
-         "pharmsID":17
+         "pharmsID":17,
+         "minmaxPrice":"9.09...10.35"
       },
       {
          "pharmsName":" ФЕБТАЛ Таблетки от глистов (цена за 1 таблетку) ",
          "pharmsShortName":"Фетбал",
-         "pharmsID":18
+         "pharmsID":18,
+         "minmaxPrice":"44...57.5"
       },
       {
          "pharmsName":"Ципровет Таблетки антибактериальные для собак",
          "pharmsShortName":"Ципровет",
-         "pharmsID":19
+         "pharmsID":19,
+         "minmaxPrice":"6.66...10.26"
       },
       {
          "pharmsName":"Энроксил Таблетки антибактериальные",
          "pharmsShortName":"Энроксил",
-         "pharmsID":20
+         "pharmsID":20,
+         "minmaxPrice":"4.11...12.75"
       },
       {
          "pharmsName":"Ципровет Таблетки антибактериальные",
          "pharmsShortName":"Ципровет",
-         "pharmsID":21
+         "pharmsID":21,
+         "minmaxPrice":"6.13...24"
       },
       {
          "pharmsName":"Анандин Капли глазные и интраназальные для собак и кошек",
          "pharmsShortName":"Анандин",
-         "pharmsID":22
+         "pharmsID":22,
+         "minmaxPrice":"5.31...8.10"
       },
       {
          "pharmsName":"Барс Капли инсектоакарицидные для собак (цена за 1 пипетку)",
          "pharmsShortName":"Барс",
-         "pharmsID":23
+         "pharmsID":23,
+         "minmaxPrice":"41...22.5"
       },
       {
          "pharmsName":"Ирис Капли глазные при конъюнктивитах",
          "pharmsShortName":"Ирис",
-         "pharmsID":24
+         "pharmsID":24,
+         "minmaxPrice":"2.76...12.35"
       },
       {
          "pharmsName":" Отоферонол Капли для лечения отита ",
          "pharmsShortName":"Отоферонол",
-         "pharmsID":25
+         "pharmsID":25,
+         "minmaxPrice":"4...7.85"
       },
       {
          "pharmsName":"Фитэкс капли успокаивающие для собак крупных пород",
          "pharmsShortName":"Фитэкс",
-         "pharmsID":26
+         "pharmsID":26,
+         "minmaxPrice":"8...18.5"
       },
       {
          "pharmsName":"Адвантейдж Капли на холку от блох (цена за 1 пипетку)",
          "pharmsShortName":"Адвантейдж",
-         "pharmsID":27
+         "pharmsID":27,
+         "minmaxPrice":"9...9.90"
       },
       {
          "pharmsName":"Дана Ультра Капли на холку от блох и клещей",
          "pharmsShortName":"Дана",
-         "pharmsID":28
+         "pharmsID":28,
+         "minmaxPrice":"2.07...3.5"
       }
    ],
    "pharmPrice":[
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":0,
          "marketPrice":41.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":0,
          "marketPrice":42.26
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":0,
          "marketPrice":43.26
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":0,
          "marketPrice":44.26
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":0,
          "marketPrice":45.26
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":0,
          "marketPrice":46.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":0,
          "marketPrice":41.46
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":0,
          "marketPrice":41.56
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":0,
          "marketPrice":41.66
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":0,
          "marketPrice":41.76
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":0,
          "marketPrice":31.26
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":0,
          "marketPrice":31.26
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":0,
          "marketPrice":41.26
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":0,
          "marketPrice":21.26
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":0,
          "marketPrice":21.26
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":0,
          "marketPrice":21.46
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":0,
          "marketPrice":41.46
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":0,
          "marketPrice":41.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":0,
          "marketPrice":41.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":0,
          "marketPrice":49.26
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":0,
          "marketPrice":51.26
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":0,
          "marketPrice":41.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":1,
          "marketPrice":1.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":1,
          "marketPrice":2.26
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":1,
          "marketPrice":3.26
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":1,
          "marketPrice":4.26
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":1,
          "marketPrice":5.26
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":1,
          "marketPrice":6.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":1,
          "marketPrice":1.60
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":1,
          "marketPrice":1.50
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":1,
          "marketPrice":1.60
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":1,
          "marketPrice":1.70
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":1,
          "marketPrice":1.26
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":1,
          "marketPrice":1.26
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":1,
          "marketPrice":1.26
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":1,
          "marketPrice":1.26
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":1,
          "marketPrice":1.26
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":1,
          "marketPrice":1.46
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":1,
          "marketPrice":1.46
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":1,
          "marketPrice":1.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":1,
          "marketPrice":1.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":1,
          "marketPrice":9.26
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":1,
          "marketPrice":1.27
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":1,
          "marketPrice":1.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":2,
          "marketPrice":81.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":2,
          "marketPrice":82.26
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":2,
          "marketPrice":83.26
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":2,
          "marketPrice":84.26
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":2,
          "marketPrice":85.26
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":2,
          "marketPrice":86.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":2,
          "marketPrice":81.60
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":2,
          "marketPrice":81.50
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":2,
          "marketPrice":81.60
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":2,
          "marketPrice":81.70
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":2,
          "marketPrice":71.26
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":2,
          "marketPrice":61.26
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":2,
          "marketPrice":81.26
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":2,
          "marketPrice":91.26
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":2,
          "marketPrice":41.26
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":2,
          "marketPrice":81.46
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":2,
          "marketPrice":71.46
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":2,
          "marketPrice":61.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":2,
          "marketPrice":81.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":2,
          "marketPrice":89.26
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":2,
          "marketPrice":81.27
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":2,
          "marketPrice":81.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":3,
          "marketPrice":21.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":3,
          "marketPrice":22.26
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":3,
          "marketPrice":23.26
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":3,
          "marketPrice":24.26
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":3,
          "marketPrice":25.26
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":3,
          "marketPrice":26.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":3,
          "marketPrice":21.60
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":3,
          "marketPrice":21.50
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":3,
          "marketPrice":21.60
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":3,
          "marketPrice":21.70
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":3,
          "marketPrice":21.26
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":3,
          "marketPrice":19.26
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":3,
          "marketPrice":18.26
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":3,
          "marketPrice":21.26
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":3,
          "marketPrice":31.26
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":3,
          "marketPrice":12.46
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":3,
          "marketPrice":13.46
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":3,
          "marketPrice":21.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":3,
          "marketPrice":21.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":3,
          "marketPrice":19.26
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":3,
          "marketPrice":21.27
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":3,
          "marketPrice":21.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":4,
          "marketPrice":1.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":4,
          "marketPrice":2.26
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":4,
          "marketPrice":3.26
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":4,
          "marketPrice":4.26
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":4,
          "marketPrice":5.26
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":4,
          "marketPrice":6.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":4,
          "marketPrice":1.60
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":4,
          "marketPrice":1.50
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":4,
          "marketPrice":1.60
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":4,
          "marketPrice":1.70
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":4,
          "marketPrice":1.26
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":4,
          "marketPrice":1.26
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":4,
          "marketPrice":1.26
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":4,
          "marketPrice":1.26
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":4,
          "marketPrice":1.26
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":4,
          "marketPrice":1.46
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":4,
          "marketPrice":1.46
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":4,
          "marketPrice":1.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":4,
          "marketPrice":1.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":4,
          "marketPrice":9.26
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":4,
          "marketPrice":1.27
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":4,
          "marketPrice":1.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":5,
          "marketPrice":8.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":5,
          "marketPrice":7.26
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":5,
          "marketPrice":9.26
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":5,
          "marketPrice":6.26
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":5,
          "marketPrice":5.26
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":5,
          "marketPrice":4.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":5,
          "marketPrice":8.60
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":5,
          "marketPrice":8.50
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":5,
          "marketPrice":8.60
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":5,
          "marketPrice":8.70
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":5,
          "marketPrice":4.26
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":5,
          "marketPrice":5.26
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":5,
          "marketPrice":6.26
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":5,
          "marketPrice":7.26
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":5,
          "marketPrice":8.26
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":5,
          "marketPrice":6.46
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":5,
          "marketPrice":8.46
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":5,
          "marketPrice":8.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":5,
          "marketPrice":8.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":5,
          "marketPrice":9.26
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":5,
          "marketPrice":9.27
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":5,
          "marketPrice":9.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":6,
          "marketPrice":4.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":6,
          "marketPrice":4.26
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":6,
          "marketPrice":4.26
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":6,
          "marketPrice":4.26
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":6,
          "marketPrice":4.26
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":6,
          "marketPrice":6.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":6,
          "marketPrice":4.60
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":6,
          "marketPrice":4.50
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":6,
          "marketPrice":4.60
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":6,
          "marketPrice":4.70
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":6,
          "marketPrice":4.26
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":6,
          "marketPrice":5.26
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":6,
          "marketPrice":6.26
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":6,
          "marketPrice":3.26
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":6,
          "marketPrice":7.26
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":6,
          "marketPrice":4.46
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":6,
          "marketPrice":5.46
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":6,
          "marketPrice":4.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":6,
          "marketPrice":4.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":6,
          "marketPrice":5.26
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":6,
          "marketPrice":4.27
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":6,
          "marketPrice":3.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":7,
          "marketPrice":4.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":7,
          "marketPrice":4.26
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":7,
          "marketPrice":4.26
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":7,
          "marketPrice":4.26
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":7,
          "marketPrice":4.26
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":7,
          "marketPrice":6.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":7,
          "marketPrice":4.60
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":7,
          "marketPrice":4.50
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":7,
          "marketPrice":4.60
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":7,
          "marketPrice":4.70
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":7,
          "marketPrice":4.26
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":7,
          "marketPrice":5.26
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":7,
          "marketPrice":6.26
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":7,
          "marketPrice":3.26
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":7,
          "marketPrice":7.26
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":7,
          "marketPrice":4.46
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":7,
          "marketPrice":5.46
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":7,
          "marketPrice":4.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":7,
          "marketPrice":4.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":7,
          "marketPrice":5.26
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":7,
          "marketPrice":4.27
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":7,
          "marketPrice":3.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":8,
          "marketPrice":14.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":8,
          "marketPrice":15.26
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":8,
          "marketPrice":16.26
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":8,
          "marketPrice":17.26
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":8,
          "marketPrice":11.26
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":8,
          "marketPrice":12.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":8,
          "marketPrice":14.60
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":8,
          "marketPrice":14.50
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":8,
          "marketPrice":14.60
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":8,
          "marketPrice":14.70
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":8,
          "marketPrice":14.26
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":8,
          "marketPrice":15.26
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":8,
          "marketPrice":16.26
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":8,
          "marketPrice":13.26
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":8,
          "marketPrice":17.26
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":8,
          "marketPrice":14.46
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":8,
          "marketPrice":15.46
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":8,
          "marketPrice":14.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":8,
          "marketPrice":14.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":8,
          "marketPrice":15.26
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":8,
          "marketPrice":14.27
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":8,
          "marketPrice":13.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":9,
          "marketPrice":14.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":9,
          "marketPrice":15.26
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":9,
          "marketPrice":16.26
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":9,
          "marketPrice":17.26
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":9,
          "marketPrice":11.26
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":9,
          "marketPrice":12.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":9,
          "marketPrice":14.60
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":9,
          "marketPrice":14.50
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":9,
          "marketPrice":14.60
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":9,
          "marketPrice":14.70
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":9,
          "marketPrice":14.26
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":9,
          "marketPrice":15.26
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":9,
          "marketPrice":16.26
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":9,
          "marketPrice":13.26
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":9,
          "marketPrice":17.26
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":9,
          "marketPrice":14.46
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":9,
          "marketPrice":15.46
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":9,
          "marketPrice":14.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":9,
          "marketPrice":14.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":9,
          "marketPrice":15.26
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":9,
          "marketPrice":14.27
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":9,
          "marketPrice":13.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":10,
          "marketPrice":8.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":10,
          "marketPrice":8.26
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":10,
          "marketPrice":9.26
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":10,
          "marketPrice":9.26
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":10,
          "marketPrice":5.26
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":10,
          "marketPrice":6.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":10,
          "marketPrice":8.60
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":10,
          "marketPrice":8.50
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":10,
          "marketPrice":8.60
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":10,
          "marketPrice":8.70
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":10,
          "marketPrice":4.26
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":10,
          "marketPrice":5.26
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":10,
          "marketPrice":6.26
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":10,
          "marketPrice":3.26
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":10,
          "marketPrice":7.26
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":10,
          "marketPrice":4.46
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":10,
          "marketPrice":5.46
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":10,
          "marketPrice":4.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":10,
          "marketPrice":4.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":10,
          "marketPrice":5.26
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":10,
          "marketPrice":4.27
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":10,
          "marketPrice":3.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":11,
          "marketPrice":74.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":11,
          "marketPrice":84.26
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":11,
          "marketPrice":94.26
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":11,
          "marketPrice":54.26
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":11,
          "marketPrice":64.26
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":11,
          "marketPrice":86.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":11,
          "marketPrice":74.60
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":11,
          "marketPrice":84.50
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":11,
          "marketPrice":74.60
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":11,
          "marketPrice":84.70
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":11,
          "marketPrice":74.26
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":11,
          "marketPrice":85.26
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":11,
          "marketPrice":86.26
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":11,
          "marketPrice":83.26
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":11,
          "marketPrice":87.26
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":11,
          "marketPrice":74.46
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":11,
          "marketPrice":75.46
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":11,
          "marketPrice":74.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":11,
          "marketPrice":74.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":11,
          "marketPrice":85.26
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":11,
          "marketPrice":84.27
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":11,
          "marketPrice":83.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":12,
          "marketPrice":24.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":12,
          "marketPrice":24.26
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":12,
          "marketPrice":24.26
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":12,
          "marketPrice":34.26
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":12,
          "marketPrice":44.26
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":12,
          "marketPrice":56.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":12,
          "marketPrice":34.60
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":12,
          "marketPrice":34.50
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":12,
          "marketPrice":24.60
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":12,
          "marketPrice":24.70
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":12,
          "marketPrice":24.26
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":12,
          "marketPrice":25.26
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":12,
          "marketPrice":26.26
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":12,
          "marketPrice":23.26
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":12,
          "marketPrice":27.26
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":12,
          "marketPrice":24.46
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":12,
          "marketPrice":25.46
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":12,
          "marketPrice":44.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":12,
          "marketPrice":44.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":12,
          "marketPrice":45.26
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":12,
          "marketPrice":34.27
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":12,
          "marketPrice":33.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":13,
          "marketPrice":4.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":13,
          "marketPrice":4.26
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":13,
          "marketPrice":4.26
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":13,
          "marketPrice":4.26
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":13,
          "marketPrice":4.26
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":13,
          "marketPrice":6.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":13,
          "marketPrice":4.60
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":13,
          "marketPrice":4.50
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":13,
          "marketPrice":4.60
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":13,
          "marketPrice":4.70
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":13,
          "marketPrice":4.26
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":13,
          "marketPrice":5.26
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":13,
          "marketPrice":6.26
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":13,
          "marketPrice":3.26
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":13,
          "marketPrice":7.26
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":13,
          "marketPrice":4.46
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":13,
          "marketPrice":5.46
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":13,
          "marketPrice":4.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":13,
          "marketPrice":4.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":13,
          "marketPrice":5.26
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":13,
          "marketPrice":4.27
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":13,
          "marketPrice":3.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":14,
          "marketPrice":4.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":14,
          "marketPrice":4.26
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":14,
          "marketPrice":4.26
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":14,
          "marketPrice":4.26
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":14,
          "marketPrice":4.26
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":14,
          "marketPrice":6.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":14,
          "marketPrice":4.60
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":14,
          "marketPrice":4.50
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":14,
          "marketPrice":4.60
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":14,
          "marketPrice":4.70
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":14,
          "marketPrice":4.26
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":14,
          "marketPrice":5.26
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":14,
          "marketPrice":6.26
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":14,
          "marketPrice":3.26
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":14,
          "marketPrice":7.26
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":14,
          "marketPrice":4.46
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":14,
          "marketPrice":5.46
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":14,
          "marketPrice":4.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":14,
          "marketPrice":4.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":14,
          "marketPrice":5.26
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":14,
          "marketPrice":4.27
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":14,
          "marketPrice":3.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":15,
          "marketPrice":1.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":15,
          "marketPrice":2.26
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":15,
          "marketPrice":3.26
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":15,
          "marketPrice":4.26
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":15,
          "marketPrice":5.26
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":15,
          "marketPrice":6.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":15,
          "marketPrice":3.6
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":15,
          "marketPrice":3.5
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":15,
          "marketPrice":3.6
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":15,
          "marketPrice":3.7
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":15,
          "marketPrice":3.26
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":15,
          "marketPrice":5.26
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":15,
          "marketPrice":6.26
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":15,
          "marketPrice":3.26
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":15,
          "marketPrice":7.26
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":15,
          "marketPrice":4.46
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":15,
          "marketPrice":5.46
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":15,
          "marketPrice":4.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":15,
          "marketPrice":4.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":15,
          "marketPrice":5.26
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":15,
          "marketPrice":4.27
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":15,
          "marketPrice":3.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":16,
          "marketPrice":14.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":16,
          "marketPrice":18.26
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":16,
          "marketPrice":17.26
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":16,
          "marketPrice":16.26
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":16,
          "marketPrice":15.26
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":16,
          "marketPrice":14.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":16,
          "marketPrice":14.6
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":16,
          "marketPrice":14.5
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":16,
          "marketPrice":14.6
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":16,
          "marketPrice":14.7
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":16,
          "marketPrice":14.26
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":16,
          "marketPrice":15.28
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":16,
          "marketPrice":16.29
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":16,
          "marketPrice":13.24
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":16,
          "marketPrice":17.25
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":16,
          "marketPrice":14.46
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":16,
          "marketPrice":15.46
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":16,
          "marketPrice":14.16
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":16,
          "marketPrice":14.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":16,
          "marketPrice":15.26
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":16,
          "marketPrice":14.27
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":16,
          "marketPrice":13.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":17,
          "marketPrice":9.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":17,
          "marketPrice":9.56
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":17,
          "marketPrice":9.46
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":17,
          "marketPrice":9.36
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":17,
          "marketPrice":9.16
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":17,
          "marketPrice":6.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":17,
          "marketPrice":8.6
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":17,
          "marketPrice":7.5
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":17,
          "marketPrice":8.6
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":17,
          "marketPrice":7.7
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":17,
          "marketPrice":9.26
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":17,
          "marketPrice":10.26
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":17,
          "marketPrice":8.26
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":17,
          "marketPrice":7.26
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":17,
          "marketPrice":7.26
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":17,
          "marketPrice":4.46
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":17,
          "marketPrice":5.46
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":17,
          "marketPrice":4.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":17,
          "marketPrice":4.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":17,
          "marketPrice":5.26
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":17,
          "marketPrice":4.27
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":17,
          "marketPrice":3.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":18,
          "marketPrice":1.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":18,
          "marketPrice":1.56
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":18,
          "marketPrice":1.46
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":18,
          "marketPrice":1.36
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":18,
          "marketPrice":1.16
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":18,
          "marketPrice":1.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":18,
          "marketPrice":1.6
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":18,
          "marketPrice":1.5
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":18,
          "marketPrice":1.6
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":18,
          "marketPrice":1.7
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":18,
          "marketPrice":1.41
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":18,
          "marketPrice":2.42
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":18,
          "marketPrice":3.41
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":18,
          "marketPrice":7.42
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":18,
          "marketPrice":7.43
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":18,
          "marketPrice":4.44
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":18,
          "marketPrice":5.45
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":18,
          "marketPrice":4.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":18,
          "marketPrice":4.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":18,
          "marketPrice":5.86
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":18,
          "marketPrice":4.97
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":18,
          "marketPrice":3.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":19,
          "marketPrice":8.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":19,
          "marketPrice":8.56
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":19,
          "marketPrice":8.46
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":19,
          "marketPrice":8.36
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":19,
          "marketPrice":8.16
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":19,
          "marketPrice":7.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":19,
          "marketPrice":7.6
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":19,
          "marketPrice":7.5
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":19,
          "marketPrice":7.6
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":19,
          "marketPrice":7.7
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":19,
          "marketPrice":8.41
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":19,
          "marketPrice":8.42
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":19,
          "marketPrice":7.41
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":19,
          "marketPrice":8.42
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":19,
          "marketPrice":7.43
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":19,
          "marketPrice":8.44
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":19,
          "marketPrice":7.45
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":19,
          "marketPrice":8.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":19,
          "marketPrice":8.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":19,
          "marketPrice":7.86
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":19,
          "marketPrice":7.97
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":19,
          "marketPrice":8.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":20,
          "marketPrice":28.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":20,
          "marketPrice":28.56
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":20,
          "marketPrice":18.46
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":20,
          "marketPrice":18.36
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":20,
          "marketPrice":18.16
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":20,
          "marketPrice":17.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":20,
          "marketPrice":17.6
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":20,
          "marketPrice":17.5
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":20,
          "marketPrice":17.6
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":20,
          "marketPrice":17.7
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":20,
          "marketPrice":18.41
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":20,
          "marketPrice":18.42
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":20,
          "marketPrice":17.41
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":20,
          "marketPrice":18.42
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":20,
          "marketPrice":17.43
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":20,
          "marketPrice":18.44
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":20,
          "marketPrice":17.45
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":20,
          "marketPrice":18.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":20,
          "marketPrice":18.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":20,
          "marketPrice":17.86
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":20,
          "marketPrice":17.97
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":20,
          "marketPrice":18.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":21,
          "marketPrice":6.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":21,
          "marketPrice":5.56
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":21,
          "marketPrice":6.46
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":21,
          "marketPrice":5.36
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":21,
          "marketPrice":6.16
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":21,
          "marketPrice":5.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":21,
          "marketPrice":5.6
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":21,
          "marketPrice":5.5
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":21,
          "marketPrice":5.6
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":21,
          "marketPrice":5.7
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":21,
          "marketPrice":5.41
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":21,
          "marketPrice":5.42
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":21,
          "marketPrice":6.41
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":21,
          "marketPrice":6.42
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":21,
          "marketPrice":5.43
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":21,
          "marketPrice":5.44
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":21,
          "marketPrice":6.45
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":21,
          "marketPrice":6.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":21,
          "marketPrice":5.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":21,
          "marketPrice":5.86
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":21,
          "marketPrice":6.97
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":21,
          "marketPrice":5.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":22,
          "marketPrice":5.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":22,
          "marketPrice":5.56
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":22,
          "marketPrice":6.46
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":22,
          "marketPrice":5.36
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":22,
          "marketPrice":6.16
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":22,
          "marketPrice":5.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":22,
          "marketPrice":5.6
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":22,
          "marketPrice":5.5
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":22,
          "marketPrice":5.6
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":22,
          "marketPrice":5.7
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":22,
          "marketPrice":5.41
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":22,
          "marketPrice":5.42
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":22,
          "marketPrice":6.41
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":22,
          "marketPrice":6.42
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":22,
          "marketPrice":5.43
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":22,
          "marketPrice":5.44
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":22,
          "marketPrice":6.45
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":22,
          "marketPrice":6.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":22,
          "marketPrice":5.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":22,
          "marketPrice":5.86
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":22,
          "marketPrice":6.97
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":22,
          "marketPrice":5.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":23,
          "marketPrice":2.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":23,
          "marketPrice":2.56
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":23,
          "marketPrice":2.46
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":23,
          "marketPrice":2.36
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":23,
          "marketPrice":2.16
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":23,
          "marketPrice":1.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":23,
          "marketPrice":2.6
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":23,
          "marketPrice":2.5
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":23,
          "marketPrice":2.6
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":23,
          "marketPrice":2.7
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":23,
          "marketPrice":2.41
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":23,
          "marketPrice":2.42
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":23,
          "marketPrice":2.41
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":23,
          "marketPrice":2.42
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":23,
          "marketPrice":2.43
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":23,
          "marketPrice":2.44
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":23,
          "marketPrice":2.45
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":23,
          "marketPrice":2.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":23,
          "marketPrice":2.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":23,
          "marketPrice":2.86
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":23,
          "marketPrice":2.97
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":23,
          "marketPrice":1.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":24,
          "marketPrice":8.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":24,
          "marketPrice":8.56
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":24,
          "marketPrice":8.46
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":24,
          "marketPrice":8.36
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":24,
          "marketPrice":8.16
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":24,
          "marketPrice":7.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":24,
          "marketPrice":7.6
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":24,
          "marketPrice":7.5
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":24,
          "marketPrice":7.6
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":24,
          "marketPrice":7.7
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":24,
          "marketPrice":8.41
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":24,
          "marketPrice":8.42
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":24,
          "marketPrice":7.41
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":24,
          "marketPrice":8.42
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":24,
          "marketPrice":7.43
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":24,
          "marketPrice":8.44
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":24,
          "marketPrice":7.45
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":24,
          "marketPrice":8.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":24,
          "marketPrice":8.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":24,
          "marketPrice":7.86
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":24,
          "marketPrice":7.97
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":24,
          "marketPrice":8.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":25,
          "marketPrice":4.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":25,
          "marketPrice":3.56
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":25,
          "marketPrice":3.46
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":25,
          "marketPrice":3.36
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":25,
          "marketPrice":4.16
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":25,
          "marketPrice":3.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":25,
          "marketPrice":3.6
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":25,
          "marketPrice":3.5
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":25,
          "marketPrice":3.6
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":25,
          "marketPrice":3.7
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":25,
          "marketPrice":3.41
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":25,
          "marketPrice":3.42
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":25,
          "marketPrice":3.41
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":25,
          "marketPrice":3.42
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":25,
          "marketPrice":4.43
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":25,
          "marketPrice":4.44
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":25,
          "marketPrice":3.45
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":25,
          "marketPrice":3.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":25,
          "marketPrice":3.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":25,
          "marketPrice":3.86
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":25,
          "marketPrice":3.97
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":25,
          "marketPrice":4.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":26,
          "marketPrice":18.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":26,
          "marketPrice":18.56
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":26,
          "marketPrice":18.46
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":26,
          "marketPrice":18.36
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":26,
          "marketPrice":18.16
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":26,
          "marketPrice":17.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":26,
          "marketPrice":17.6
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":26,
          "marketPrice":17.5
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":26,
          "marketPrice":17.6
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":26,
          "marketPrice":17.7
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":26,
          "marketPrice":18.41
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":26,
          "marketPrice":18.42
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":26,
          "marketPrice":17.41
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":26,
          "marketPrice":18.42
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":26,
          "marketPrice":17.43
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":26,
          "marketPrice":18.44
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":26,
          "marketPrice":17.45
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":26,
          "marketPrice":18.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":26,
          "marketPrice":18.66
       },
       {
          "pharmsID":26,
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "marketPrice":17.86
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":26,
          "marketPrice":17.97
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":26,
          "marketPrice":18.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":27,
          "marketPrice":8.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":27,
          "marketPrice":8.56
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":27,
          "marketPrice":8.46
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":27,
          "marketPrice":8.36
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":27,
          "marketPrice":8.16
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":27,
          "marketPrice":7.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":27,
          "marketPrice":7.6
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":27,
          "marketPrice":7.5
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":27,
          "marketPrice":7.6
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":27,
          "marketPrice":7.7
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":27,
          "marketPrice":8.41
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":27,
          "marketPrice":8.42
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":27,
          "marketPrice":7.41
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":27,
          "marketPrice":8.42
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":27,
          "marketPrice":7.43
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":27,
          "marketPrice":18.44
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":27,
          "marketPrice":7.45
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":27,
          "marketPrice":8.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":27,
          "marketPrice":8.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":27,
          "marketPrice":7.86
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":27,
          "marketPrice":7.97
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":27,
          "marketPrice":8.26
       },
       {
-         "marketID":0,
+         "marketID":0, "address":"улица Карбышева, 11А","phone":"+375 17 234-50-53", "marketName":"Ветеринарная клиника А-Вет",
          "pharmsID":28,
          "marketPrice":6.26
       },
       {
-         "marketID":1,
+         "marketID":1, "address":"Логойский тракт, 15/2","phone":"+375 25 601-70-00","marketName":"ВетПрофи",
          "pharmsID":28,
          "marketPrice":6.56
       },
       {
-         "marketID":2,
+         "marketID":2, "address":"проспект Победителей, 65", "phone":"+375 17 399-22-92","marketName":"Доктор Вет",
          "pharmsID":28,
          "marketPrice":6.46
       },
       {
-         "marketID":3,
+         "marketName":" Доктор Вет ","phone":" +375 17 221-33-47 ","address":" ул. Тимирязева, 74А ","marketID":3,
          "pharmsID":28,
          "marketPrice":6.36
       },
       {
-         "marketID":4,
+         "marketName":"Zoobazar","phone":"+375 29 325-03-69","address":"просп. Победителей, 89, корп. 1","marketID":4,
          "pharmsID":28,
          "marketPrice":6.16
       },
       {
-         "marketID":5,
+         "marketName":" Zoobazar ","phone":" +375 44 525-07-62","address":" ул. Владислава Голубка, 2 ","marketID":5,
          "pharmsID":28,
          "marketPrice":7.26
       },
       {
-         "marketID":6,
+         "marketName":"Друзья","phone":"+375 33 686-80-18","address":"Гродно, ул. 1 Мая, 19","marketID":6,
          "pharmsID":28,
          "marketPrice":7.6
       },
       {
-         "marketID":7,
+         "marketName":"Золотой гусь","phone":"+375 29 690-12-63","address":"ул. Ленина, 19","marketID":7,
          "pharmsID":28,
          "marketPrice":7.5
       },
       {
-         "marketID":8,
+         "marketName":"Zoobazar","phone":"+375 29 650-47-67","address":"ул. Ольги Соломовой, 70","marketID":8,
          "pharmsID":28,
          "marketPrice":7.6
       },
       {
-         "marketID":9,
+         "marketName":"Zoobazar","phone":"+375 29 174-83-96","address":"ул. Победы, 47","marketID":9,
          "pharmsID":28,
          "marketPrice":7.7
       },
       {
-         "marketID":10,
+         "marketName":"Zoobazar","phone":"+375 44 525-07-42","address":"просп. Янки Купалы, 82А","marketID":10,
          "pharmsID":28,
          "marketPrice":6.41
       },
       {
-         "marketID":11,
+         "marketName":"Ветеринарная клиника","phone":"+375 15 265-11-68","address":"ул. Суворова, 166","marketID":11,
          "pharmsID":28,
          "marketPrice":6.42
       },
       {
-         "marketID":12,
+         "marketName":"ПроБиоТех","phone":"+375 29 650-47-67","address":"Гродно, ул. Карского, 24","marketID":12,
          "pharmsID":28,
          "marketPrice":7.41
       },
       {
-         "marketID":13,
+         "marketName":"Зоо Лавка","phone":"+375 29 513-70-00","address":"Могилёв, ул. Космонавтов, 2","marketID":13,
          "pharmsID":28,
          "marketPrice":6.42
       },
       {
-         "marketID":14,
+         "marketName":"Какаду вет","phone":"+375 44 700-47-70","address":"Первомайская ул., 77, корп. 1","marketID":14,
          "pharmsID":28,
          "marketPrice":7.43
       },
       {
-         "marketID":15,
+         "marketName":"МогРосВет","phone":"+375 22 242-29-24","address":"пер. Карпинской, 3","marketID":15,
          "pharmsID":28,
          "marketPrice":6.44
       },
       {
-         "marketID":16,
+         "marketName":"KakaDy+","phone":"+375 29 650-47-67","address":"Первомайская ул., 57","marketID":16,
          "pharmsID":28,
          "marketPrice":7.45
       },
       {
-         "marketID":17,
+         "marketName":"Доктор Вет","phone":"+375 22 247-85-89","address":"ул. Мовчанского, 6","marketID":17,
          "pharmsID":28,
          "marketPrice":6.56
       },
       {
-         "marketID":18,
+         "marketName":"Зоомаркет","phone":"+375 29 362-24-00","address":"ул. Кирова, 17","marketID":18,
          "pharmsID":28,
          "marketPrice":6.66
       },
       {
-         "marketID":19,
+         "marketName":"Кот и пес","phone":"+375 21 266-26-76","address":"ул. Димитрова, 29","marketID":19,
          "pharmsID":28,
          "marketPrice":7.86
       },
       {
-         "marketID":20,
+         "marketName":"Вита-Вет","phone":"+375 21 267-31-93","address":"просп. Фрунзе, 12","marketID":20,
          "pharmsID":28,
          "marketPrice":7.97
       },
       {
-         "marketID":21,
+         "marketName":"Котёнок Гав","phone":"+375 29 358-69-00","address":"просп. Строителей, 24, корп. 1","marketID":21,
          "pharmsID":28,
          "marketPrice":6.26
       }
    ]
 }
+
+
