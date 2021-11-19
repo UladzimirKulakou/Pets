@@ -1,0 +1,175 @@
+{
+   "pharmsName":"Бравекто Таблетки от блох и клещей",
+   "pharmsShortName":"Бравекто",
+   "pharmsID":0,
+   "minmaxPrice":"41...22.5"
+   
+},
+{
+   "pharmsName":"Азинокс Плюс Таблетки от гельминтов для собак",
+   "pharmsShortName":"Азинокс",
+   "pharmsID":1,
+   "minmaxPrice":"0.90...1.63"
+},
+{
+   "pharmsName":"Апоквел Таблетки при дерматитах у собак",
+   "pharmsShortName":"Апоквел",
+   "pharmsID":2,
+   "minmaxPrice":"89.01...97.5"
+},
+{
+   "pharmsName":" Вазосан",
+   "pharmsShortName":"Вазосан",
+   "pharmsID":3,
+   "minmaxPrice":"29.34...39.53"
+},
+{
+   "pharmsName":" Гельмимакс Таблетки от глистов для щенков и собак",
+   "pharmsShortName":"Гельмимакс",
+   "pharmsID":4,
+   "minmaxPrice":"11.43...17.46"
+},
+{
+   "pharmsName":"Дехинел Плюс XL Таблетки от глистов для собак крупных пород ",
+   "pharmsShortName":"Дехинел",
+   "pharmsID":5,
+   "minmaxPrice":"8.19...12.78"
+},
+{
+   "pharmsName":"Диаркан Сахарные кубики при диарее (цена за 1 кубик)",
+   "pharmsShortName":"Диаркан",
+   "pharmsID":6,
+   "minmaxPrice":"4.50...4.59"
+},
+{
+   "pharmsName":"Кот Баюн таблетки Успокоительное средство",
+   "pharmsShortName":"Баюн",
+   "pharmsID":7,
+   "minmaxPrice":"4.95...6.39"
+},
+{
+   "pharmsName":"Марфлоксин Антибактериальные таблетки",
+   "pharmsShortName":"Марфлоксин",
+   "pharmsID":8,
+   "minmaxPrice":"18.8...51.76"
+},
+{
+   "pharmsName":" Мексидол-Вет Таблетки для орального применений ",
+   "pharmsShortName":"Мексидол",
+   "pharmsID":9,
+   "minmaxPrice":"14.58...18.57"
+},
+{
+   "pharmsName":"Милпразон таблетки от глистов для собак (цена за 1 таблетку)",
+   "pharmsShortName":"Милпразон",
+   "pharmsID":10,
+   "minmaxPrice":"7...8"
+},
+{
+   "pharmsName":" Онсиор 5 мг №28 для собак ",
+   "pharmsShortName":"Онсиор",
+   "pharmsID":11,
+   "minmaxPrice":"37.8...74.25"
+},
+{
+   "pharmsName":"Римадил Р Противовоспалительные и анальгезирующие таблетки для собак",
+   "pharmsShortName":"Римадил",
+   "pharmsID":12,
+   "minmaxPrice":"29...45"
+},
+{
+   "pharmsName":"Фитокальцевит для собак 500г",
+   "pharmsShortName":"Фитокальцевит",
+   "pharmsID":13,
+   "minmaxPrice":"11...12.5"
+},
+{
+   "pharmsName":" Превикокс Противовоспалительные, болеутоляющие таблетки для собак (цена за 1 таблетку) ",
+   "pharmsShortName":"Превикокс",
+   "pharmsID":14,
+   "minmaxPrice":"4.38...8.58"
+},
+{
+   "pharmsName":" Празител плюс Таблетки от гельминтов для собак, 2 таблетки ",
+   "pharmsShortName":"Празител",
+   "pharmsID":15,
+   "minmaxPrice":"18.54...28.26"
+},
+{
+   "pharmsName":" Симпарика Таблетка от блох и клещей (цена за 1 таблетку) ",
+   "pharmsShortName":"Симпарика",
+   "pharmsID":16,
+   "minmaxPrice":"41...22.5"
+},
+{
+   "pharmsName":" Сульф 120 таблетки Антибактериальный препарат для собак ",
+   "pharmsShortName":"Сульф",
+   "pharmsID":17,
+   "minmaxPrice":"9.09...10.35"
+},
+{
+   "pharmsName":" ФЕБТАЛ Таблетки от глистов (цена за 1 таблетку) ",
+   "pharmsShortName":"Фетбал",
+   "pharmsID":18,
+   "minmaxPrice":"44...57.5"
+},
+{
+   "pharmsName":"Ципровет Таблетки антибактериальные для собак",
+   "pharmsShortName":"Ципровет",
+   "pharmsID":19,
+   "minmaxPrice":"6.66...10.26"
+},
+{
+   "pharmsName":"Энроксил Таблетки антибактериальные",
+   "pharmsShortName":"Энроксил",
+   "pharmsID":20,
+   "minmaxPrice":"4.11...12.75"
+},
+{
+   "pharmsName":"Ципровет Таблетки антибактериальные",
+   "pharmsShortName":"Ципровет",
+   "pharmsID":21,
+   "minmaxPrice":"6.13...24"
+},
+{
+   "pharmsName":"Анандин Капли глазные и интраназальные для собак и кошек",
+   "pharmsShortName":"Анандин",
+   "pharmsID":22,
+   "minmaxPrice":"5.31...8.10"
+},
+{
+   "pharmsName":"Барс Капли инсектоакарицидные для собак (цена за 1 пипетку)",
+   "pharmsShortName":"Барс",
+   "pharmsID":23,
+   "minmaxPrice":"41...22.5"
+},
+{
+   "pharmsName":"Ирис Капли глазные при конъюнктивитах",
+   "pharmsShortName":"Ирис",
+   "pharmsID":24,
+   "minmaxPrice":"2.76...12.35"
+},
+{
+   "pharmsName":" Отоферонол Капли для лечения отита ",
+   "pharmsShortName":"Отоферонол",
+   "pharmsID":25,
+   "minmaxPrice":"4...7.85"
+},
+{
+   "pharmsName":"Фитэкс капли успокаивающие для собак крупных пород",
+   "pharmsShortName":"Фитэкс",
+   "pharmsID":26,
+   "minmaxPrice":"8...18.5"
+},
+{
+   "pharmsName":"Адвантейдж Капли на холку от блох (цена за 1 пипетку)",
+   "pharmsShortName":"Адвантейдж",
+   "pharmsID":27,
+   "minmaxPrice":"9...9.90"
+},
+{
+   "pharmsName":"Дана Ультра Капли на холку от блох и клещей",
+   "pharmsShortName":"Дана",
+   "pharmsID":28,
+   "minmaxPrice":"2.07...3.5"
+}
